@@ -22,6 +22,8 @@ The project is divided into *three sets of questions* – Easy, Moderate, and Ad
 ## 🧱 Database Schema
 The dataset is relational and consists of the following key tables:
 
+![ERD](https://github.com/mohitsingh3101/Music-Store-Data-Analysis-Using-SQL/blob/main/Music%20Store%20Schema/schema_diagram.png)
+
 - *Artist*: ArtistId, Name  
 - *Album*: AlbumId, Title, ArtistId  
 - *Track*: TrackId, Name, AlbumId, MediaTypeId, GenreId, Composer, Milliseconds, Bytes, UnitPrice  
